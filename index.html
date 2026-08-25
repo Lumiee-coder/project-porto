@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <nav class="navbar">
+                <p style="font-size: 0.9rem;">azka el charida</p>
+                <ul class="nav-menu" id="nav-menu">
+                    <li><a href="#">Beranda</a></li>
+                    <li><a href="#">Tentang saya</a></li>
+                    <li><a href="#">Portofolio</a></li>
+                    <li><a href="#">Pendidikan</a></li>
+                    <li><a href="#">Pengalaman</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">contact</a></li>
+                </ul>
+                <div class="burger-list" id="burger-list">&#9776;</div>
+            </nav>
+        </header>
+        <section class="introduction">
+            <div class="content-intro">
+                <div class="text-intro">
+                    <span>Hi, My name is </span>
+                    <h1>Azka EL-Charida</h1>
+                    <p>IT Student Of <u>IDN BS SOLO</u></p>
+                    <div>Happy to contribute and also build
+                         something that useful and unique!
+                    </div>
+                    <button type="button">Contact Me</button>
+                </div>
+                <img src="assets/profile.png" alt="profile">
+            </div>
+        </section>
+    </body>
+    <script>
+        const burgerList = document.getElementById("burger-list");
+        const navMenu = document.getElementById("nav-menu");
+
+        burgerList.addEventListener("click", () => {
+            navMenu.classList.toggle("active");
+        });
+    </script>
+</html>
