@@ -154,6 +154,11 @@ section  {
     width: 100%;
 }
 
+.about-me img {
+    width: 100%;
+    height: auto;
+}
+
 .about-me-session {
     display: flex;
     flex-direction: row;
@@ -367,15 +372,11 @@ section  {
     gap: 4rem;
     padding: 0 10%;
 }
-.list-contact li {
-    max-width: 50px;
-}
 
-.list-contact li img {
-    height: auto;
-    max-width: 90%;
-    border: 1px solid black;
-    border-radius: 30px;
+.list-contact li {
+    max-width: 150px;
+    border-radius: 100%;
+    padding: 10rem;
 }
 
 @media (max-width:768px) {
@@ -384,9 +385,9 @@ section  {
         padding: 0 10%;
     }
 
-    .list-contact li  {
+    /* .list-contact li  {
         max-width: 100px;
-    }
+    } */
 }
 /* SESSION CONTACT-END */
 /* SESSION FOOTER */
@@ -447,3 +448,4 @@ section  {
     }
  
     /* SESSION FOOTER-END */
+    
